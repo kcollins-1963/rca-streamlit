@@ -6,9 +6,9 @@ import base64 # Import base64 module
 
 # Set up OpenAI API key
 openai.api_type = "azure"
-openai.api_base = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+openai.api_base = "https://coe-openai-instance.openai.azure.com/"
 openai.api_version = "2023-03-15-preview"
-openai.api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+openai.api_key = "d079f278137e44a8812fc39fe85449eb"
                  
 
 # Load SAP SuccessFactors Logo
