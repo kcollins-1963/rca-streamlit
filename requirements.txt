@@ -1,1 +1,2 @@
-kc-test
+streamlit
+openai
