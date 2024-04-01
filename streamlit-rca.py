@@ -10,10 +10,10 @@ openai.api_base = "https://coe-openai-instance.openai.azure.com/"
 openai.api_version = "2023-03-15-preview"
 openai.api_key = "d079f278137e44a8812fc39fe85449eb"
                  
-st.set_page_config(page_title="SAP SuccessFactors Customer Office", page_icon="299373_sap-logo-shape_blue.png", layout='wide')
+st.set_page_config(page_title="SAP SuccessFactors Customer Office", page_icon="301103_da_blue.png", layout='wide')
 
 # Load SAP SuccessFactors Logo
-logo_filename = "SFSF-Logo.png"
+logo_filename = "SFSF-CO-Logo.png"
 logo_path = os.path.join(os.getcwd(), logo_filename)
 
 def image_to_base64(image_path):
@@ -93,7 +93,7 @@ else:
     st.error("Failed to load logo image.")
 
 st.write("\n\n\n\n\n\n")
-st.title("Customer Office")
+st.title("&nbsp;")
 st.subheader("\nPost-Incident Communication Enhancement with AI")
 
 impact = st.text_area("**Incident Impact:**")
