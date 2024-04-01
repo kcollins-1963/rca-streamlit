@@ -68,6 +68,8 @@ def analyze_rca(input_summary):
                 3. Replace acronyms where possible with the actual description when first referenced\n
                 4. Protect the SAP Brand when describing the incident summary.\n
                 5. Write the summary for a non-technical customer audience.\n
+                6. Replace any reference to HXM with HCM.\n
+                7. Replace any reference to human experience management with human capital management.\n
             """
             },
             {"role": "user", "content": prompt},
